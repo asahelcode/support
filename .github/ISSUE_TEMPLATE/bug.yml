@@ -9,12 +9,14 @@ body:
       label: Description of the bug
     validations:
       required: true
+    value: beginners label not found
   - type: input
     id: stack
     attributes:
       label: Project stack or language (e.g. front-end)
     validations:
       required: true
+    value: React.js
   - type: textarea
     id: workingenvironment
     attributes:
